@@ -12,6 +12,11 @@ sudo apt install nodejs -y
 
 sudo apt install npm -y
 
+## Clone repository
+
+git clone https://github.com/italoalmeida/simple-server.git
+cd simple-server
+
 ## Install packages
 
 npm install
