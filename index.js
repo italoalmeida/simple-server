@@ -9,7 +9,7 @@ const PORT = 3000;
 
 // Definindo a rota raíz "/"
 app.get("/", (req, res) => {
-  console.log(`GET / called`);
+  console.log(new Date(), `GET / called`);
   res.send("UP"); // Retorna a mensagem "UP"
 });
 
